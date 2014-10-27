@@ -11,7 +11,7 @@ currState = False
 prevState = False
 
 while True:
-#    try:
+    try:
         sleep(0.1)
         prevState = currState
         currState = GPIO.input(7)
@@ -29,14 +29,14 @@ while True:
             GPIO.output(18, False)
             sleep(5)
             prevState = GPIO.input(7)
-#    except (KeyboardInterrupt, SystemExit):
-#        GPIO.cleanup()
-#        print ("Keyboard stop")
-#        exit()
-#    except:
-#        # report error and proceed
-#        GPIO.cleanup()
-#        print ("FUBAR")
-#        exit()
+    except (KeyboardInterrupt, SystemExit):
+        GPIO.cleanup()
+        print ("Keyboard stop")
+        exit()
+    except:
+        # report error and proceed
+        GPIO.cleanup()
+        print ("FUBAR")
+        exit()
 
 
