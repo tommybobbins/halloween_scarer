@@ -20,7 +20,7 @@ while True:
             print "GPIO pin %s is %s" % (7, newState)
             GPIO.output(18, True)
             sleep(1)
-            pygame.mixer.music.load("laugh.mp3")
+            pygame.mixer.music.load("/home/pi/halloween_zombie/laugh.mp3")
             pygame.mixer.music.play()
             GPIO.output(18, False)
             sleep(1)
