@@ -28,7 +28,6 @@ while True:
             sleep(5)
             GPIO.output(18, False)
             sleep(5)
-            prevState = GPIO.input(7)
     except (KeyboardInterrupt, SystemExit):
         GPIO.cleanup()
         print ("Keyboard stop")
