@@ -11,12 +11,13 @@ Needs Python Pygame to play the audio track:
 
 To run on boot:
 
-   chmod a+x /home/pi/halloween_scarer/light_zombie.py
-   sudo nano /etc/rc.local
+    chmod a+x /home/pi/halloween_scarer/light_zombie.py
+
+    sudo nano /etc/rc.local
 
 Just before the exit 0 line at the bottom, add:
 
-   /home/pi/halloween_scarer/light_zombie.py &
+    /home/pi/halloween_scarer/light_zombie.py &
 
 Laugh taken from Freesound.org
 http://www.freesound.org/people/DocOne42/sounds/214630/
