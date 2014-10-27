@@ -28,4 +28,6 @@ Just before the exit 0 line at the bottom, add:
 Laugh taken from Freesound.org
 http://www.freesound.org/people/DocOne42/sounds/214630/
 CC BY-NC 3.0
-
+Zombie Roar taken from Freesound.org
+http://www.freesound.org/people/EagleClaw/sounds/245223/
+CC0 1.0
