@@ -4,7 +4,9 @@ Halloween Scarer
 Convert a Poundland zombie mummy into a trick or treat scarer. Requires a PIR sensor similar to the one described here http://www.raspberrypi.org/learning/parent-detector/WORKSHEET.md
 
 ![](IMG_20141027_140916.jpg)
-PIR sensor attached to pins 5V, GND and 7 (Board pin 26)
+
+PIR sensor attached to pins 5V, GND and 7 (Board pin 26).
+
 LEDS attached to pins GND and 18 (Board pin 12)
 
 Needs Python Pygame to play the audio track:
@@ -24,10 +26,18 @@ Just before the exit 0 line at the bottom, add:
 
 ![](IMG_20141027_144523.jpg)
 
+You can even remove one of the eyes and attach a PIR sensor into the socket:
 
-Laugh taken from Freesound.org
+![](IMG_20141028_111948.jpg)
+
+Laugh taken from Freesound.org:
+
 http://www.freesound.org/people/DocOne42/sounds/214630/
+
 CC BY-NC 3.0
+
 Zombie Roar taken from Freesound.org
+
 http://www.freesound.org/people/EagleClaw/sounds/245223/
+
 CC0 1.0
